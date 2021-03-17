@@ -10,19 +10,20 @@
 </head>
 
 <body>
+    <!-- Entête -->
     <header>
-        <a href="index.html"></a><img src="images/logo/Reservia.svg" alt="Logo de Reservia" /></a>
+        <a href="index.html"></a><img class="logo" src="images/logo/Reservia.svg" alt="Logo de Reservia" /></a>
+        <a href="">S'incrire</a>
         <nav>
             <ul>
                 <li>Hébergements</li>
                 <li>Activités</li>
-                <li>S'inscrire</li>
             </ul>
         </nav>
     </header>
 
 
-
+    <!-- Menu de recherche et filtres -->
     <section>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
@@ -46,19 +47,30 @@
     </section>
 
 
-
-    <section>
-        <div>
+    <!-- Résultats de la recherche -->
+    <section class="hebergements">
+        <div class="hebergements_recherche">
             <h1>Hébergements à Marseille</h1>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
+            <div class="hebergements_recherche_cartes">
+                <article>
+                    <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"/>
+                    <h2>Auberge la Cannebière</h2>
+                    <p>Nuit à partir de 25€</p>
+                </article>
+
+                <article>
+                    <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"/>
+                    <h2>Hôtel du port</h2>
+                    <p>Nuit à partir de 52€</p>
+                </article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+            </div>
             <h2>Afficher plus</h2>
         </div>
-        <aside>
+        <aside class="hebergements_populaires">
             <h1>Les plus populaires <img src="images/icons/chart-line-solid.svg" /></h1>
             <article></article>
             <article></article>
@@ -67,7 +79,7 @@
     </section>
 
 
-
+    <!-- Activités de la recherche -->
     <section>
         <h1>Activités à Marseille</h1>
         <article></article>
@@ -79,7 +91,7 @@
     </section>
 
 
-
+    <!-- Pied de page -->
     <footer>
         <h2>A propos</h2>
         <ul>

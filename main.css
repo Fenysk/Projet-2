@@ -1,3 +1,50 @@
-img{
+*{font-family: Arial, Helvetica, sans-serif;}
+
+h2{
+    margin-left: 11px;
+}
+
+body{
+    margin: 0 50px;
+}
+
+header{
+    display: flex;
+}
+
+.logo{
     height: 30px;
 }
+
+img{
+    height: 20px;
+}
+
+.hebergements{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergements_recherche, .hebergements_populaires{
+    padding: 46px 40px 50px 46px;
+
+    border-radius: 20px;
+    
+    background-color: #f2f2f2;
+}
+
+.hebergements_recherche_cartes{
+    display: flex;
+}
+
+.hebergements_recherche_cartes
+article{
+    background-color: white;
+
+    padding: 5px;
+}
+
+.hebergements_recherche_cartes img{
+    height: 114px;
+}
+
