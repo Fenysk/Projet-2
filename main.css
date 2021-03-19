@@ -88,3 +88,43 @@ header a{
     color: black;
 }
 
+
+
+/* Section recherche */
+.section__recherche{
+    margin: 0 50px;
+}
+.section__recherche p{
+    padding-top: 10px;
+}
+.section__recherche form{
+    width: max-content;
+    height: 50px;
+    margin-top: 22px;
+
+    border: 1px #F2F2F2 solid;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #F2F2F2;
+}
+.section__recherche form img{
+    height: 18px;
+    width: 50px;
+}
+.section__recherche input{
+    height: 100%;
+    padding: 0 18px;
+    
+    border: none;
+}
+.section__recherche__bouton__rechercher{
+    border-radius: 0 15px 15px 0;
+
+    font-weight: bold;
+
+    color: white;
+    background-color: #0065FC;
+}
