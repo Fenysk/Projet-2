@@ -97,13 +97,13 @@ header a{
 
 
 /* Section recherche */
-.section__recherche{
+.recherche{
     margin: 0 50px;
 }
-.section__recherche p{
+.recherche p{
     padding-top: 10px;
 }
-.section__recherche form{
+.recherche form{
     width: max-content;
     height: 50px;
     margin-top: 22px;
@@ -116,17 +116,17 @@ header a{
 
     background-color: #F2F2F2;
 }
-.section__recherche form img{
+.recherche form img{
     height: 18px;
     width: 50px;
 }
-.section__recherche input{
+.recherche input{
     height: 100%;
     padding: 0 18px;
     
     border: none;
 }
-.section__recherche__bouton__rechercher{
+.recherche .bouton_rechercher{
     border-radius: 0 15px 15px 0;
 
     font-weight: bold;
@@ -134,18 +134,18 @@ header a{
     color: white;
     background-color: #0065FC;
 }
-.section__recherche__filtres{
+.recherche .filtres{
     margin-top: 32px;
 
     display: flex;
     align-items: center;
     flex-flow: wrap row;
 }
-.section__recherche__filtres ul{
+.recherche .filtres ul{
     display: flex;
     flex-flow: wrap;
 }
-.section__recherche__filtres a{
+.recherche .filtres a{
     height: 50px;
     margin-left: 24px;
     padding-right: 16px;
@@ -159,7 +159,7 @@ header a{
     display: flex;
     align-items: center;
 }
-.section__recherche__filtres div{
+.recherche .filtres div{
     height: 54px;
     width: 54px;
     margin-right: 16px;
@@ -172,16 +172,16 @@ header a{
     
     background-color: #DEEBFF;
 }
-.section__recherche__filtres img{
+.recherche .filtres img{
     height: 18px;
     width: 50px; 
 
     filter: invert(25%) sepia(81%) saturate(2508%) hue-rotate(208deg) brightness(99%) contrast(113%);
     
 }
-.section__recherche p{
+.recherche p{
     padding-top: 36px;
 }
-.section__recherche p img{
+.recherche p img{
     margin-right: 12px;
 }
