@@ -24,7 +24,7 @@
 
 
     <!-- Recherche -->
-    <section class="section__recherche">
+    <section class="recherche">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
         <form method="POST" action="rechercher.php">
@@ -32,7 +32,7 @@
             <input type="search" name="recherche" placeholder="Marseille, France" />
             <input class="section__recherche__bouton__rechercher" type="submit" value="Rechercher" />
         </form>
-        <div class="section__recherche__filtres">
+        <div class="filtres">
             <h2>Filtres</h2>
             <ul>
                 <li><a href="#"><div><img src="images/icons/money-bill-wave-solid.svg" /></div>Économique</a></li>
@@ -46,14 +46,14 @@
     </section>
 
 
-    <!-- Résultats hébergements -->
-    <section class="section__hebergements">
-        <div class="section__hebergements__resultats">
+    <!-- Recherche résultats -->
+    <section class="hebergements">
+        <div class="resultats">
             <h1>Hébergements à Marseille</h1>
             <ul>
-                <li class="section__hebergements__resultats__carte">
-                    <img class="section__hebergements__resultats__carte__image" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
-                    <div class="section__hebergements__resultats__carte__description">
+                <li class="carte">
+                    <img class="illustration" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
+                    <div class="description">
                         <h2>Auberge la Cannebière</h2>
                         <p>Nuit à partir de 25€</p>
                         <div class="evalutation_etoiles">
@@ -66,9 +66,9 @@
                     </div>
                 </li>
 
-                <li class="section__hebergements__resultats__carte">
-                    <img class="section__hebergements__resultats__carte__image" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" />
-                    <div class="section__hebergements__resultats__carte__description">
+                <li class="carte">
+                    <img class="illustration" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" />
+                    <div class="description">
                         <h2>Hôtel du port</h2>
                         <p>Nuit à partir de 52€</p>
                         <div class="evalutation_etoiles">
@@ -81,9 +81,9 @@
                     </div>
                 </li>
 
-                <li class="section__hebergements__resultats__carte">
-                    <img class="section__hebergements__resultats__carte__image" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" />
-                    <div class="section__hebergements__resultats__carte__description">
+                <li class="carte">
+                    <img class="illustration" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" />
+                    <div class="description">
                         <h2>Hôtel Les mouettes</h2>
                         <p>Nuit à partir de 76€</p>
                         <div class="evalutation_etoiles">
@@ -96,9 +96,9 @@
                     </div>
                 </li>
 
-                <li class="section__hebergements__resultats__carte">
-                    <img class="section__hebergements__resultats__carte__image" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" />
-                    <div class="section__hebergements__resultats__carte__description">
+                <li class="carte">
+                    <img class="illustration" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" />
+                    <div class="description">
                         <h2>Hôtel de la mer</h2>
                         <p>Nuit à partir de 46€</p>
                         <div class="evalutation_etoiles">
@@ -111,9 +111,9 @@
                     </div>
                 </li>
 
-                <li class="section__hebergements__resultats__carte">
-                    <img class="section__hebergements__resultats__carte__image" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" />
-                    <div class="section__hebergements__resultats__carte__description">
+                <li class="carte">
+                    <img class="illustration" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" />
+                    <div class="description">
                         <h2>Auberge Le Panier</h2>
                         <p>Nuit à partir de 23€</p>
                         <div class="evalutation_etoiles">
@@ -126,9 +126,9 @@
                     </div>
                 </li>
 
-                <li class="section__hebergements__resultats__carte">
-                    <img class="section__hebergements__resultats__carte__image" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" />
-                    <div class="section__hebergements__resultats__carte__description">
+                <li class="carte">
+                    <img class="illustration" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" />
+                    <div class="description">
                         <h2>Hôtel chez Amina</h2>
                         <p>Nuit à partir de 96€</p>
                         <div class="evalutation_etoiles">
@@ -141,15 +141,16 @@
                     </div>
                 </li>
             </ul>
-            <p><a href="#">Afficher plus</a></p>
+            <p><a href="#"><span>Afficher plus</span></a></p>
         </div>
 
-        <aside class="section__hebergements__tendances">
+        <!-- Recherche tendances -->
+        <aside class="tendances">
             <h1>Les plus populaires <img src="images/icons/chart-line-solid.svg" /></h1>
             <ul>
-                <li class="section__hebergements__tendances__carte">
-                    <img class="section__hebergements__tendances__carte__image" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
-                    <div class="section__hebergements__tendances__carte__description">
+                <li class="carte">
+                    <img class="illustration" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
+                    <div class="description">
                         <h2>Hôtel Le soleil du matin</h2>
                         <p>Nuit à partir de 128€</p>
                         <div class="evalutation_etoiles">
@@ -162,9 +163,9 @@
                     </div>
                 </li>
 
-                <li class="section__hebergements__tendances__carte">
-                    <img class="section__hebergements__tendances__carte__image" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" />
-                    <div class="section__hebergements__tendances__carte__description">
+                <li class="carte">
+                    <img class="illustration" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" />
+                    <div class="description">
                         <h2>Au cœur de l'eau Chambres d'hôtes</h2>
                         <p>Nuit à partir de 71€</p>
                         <div class="evalutation_etoiles">
@@ -177,9 +178,9 @@
                     </div>
                 </li>
 
-                <li class="section__hebergements__tendances__carte">
-                    <img class="section__hebergements__tendances__carte__image" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
-                    <div class="section__hebergements__tendances__carte__description">
+                <li class="carte">
+                    <img class="illustration" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
+                    <div class="description">
                         <h2>Hôtel Tout bleu et Blanc</h2>
                         <p>Nuit à partir de 68€</p>
                         <div class="evalutation_etoiles">
