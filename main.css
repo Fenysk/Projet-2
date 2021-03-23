@@ -191,14 +191,16 @@ header a{
 
 .section__hebergements{
     margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
 }
 
 .section__hebergements__resultats{
-    width: 60%;
-    margin: 0 50px;
+    width: auto;
+    margin-right: 50px;
     padding: 50px 40px;
 
     border-radius: 20px;
@@ -225,8 +227,8 @@ header a{
 }
 
 .section__hebergements__resultats__carte__image{
-    width: 280px;
-    height: 171px;
+    width: 270px;
+    height: 130px;
 
     object-fit: cover;  
 
@@ -244,4 +246,57 @@ header a{
 
 .section__hebergements__resultats__carte__description p{
     margin-top: 12px;
+}
+
+
+
+
+.section__hebergements__tendances{
+    width: 50%;
+    padding: 50px 40px;
+
+    border-radius: 20px;
+    
+    background-color: #F2F2F2;
+}
+
+.section__hebergements__tendances h1 img{
+    float: right;
+}
+
+.section__hebergements__tendances__carte{
+    margin-top: 30px;
+    padding: 5px;
+
+    display: flex;
+        
+    border-radius: 16px;
+
+    box-shadow: 0 0 10px #cecece;
+
+    background-color: white;
+}
+
+.section__hebergements__tendances__carte__image{
+    height: 153px;
+    width: 40%;
+    margin-right: 24px;
+
+    border-radius: 12px 0 0 12px;
+}
+
+.section__hebergements__tendances__carte__description{
+    margin-top: 14px;
+
+    display: flex;
+    flex-flow: column;
+}
+
+.section__hebergements__tendances__carte__description p{
+    margin-top: 12px;
+}
+
+.section__hebergements__tendances__carte__description .evalutation_etoiles{
+    margin-top: auto;
+    margin-bottom: 10px;
 }
