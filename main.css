@@ -305,3 +305,69 @@ header a{
 
 
 
+/* Activités */
+.activites{
+    margin: 0 50px;
+    margin-top: 68px;
+}
+
+.activites .grille{
+    margin-top: 28px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 194px 42px 164px;
+    grid-gap: 42px;
+    grid-template-areas:
+    "C1 C2 C4 C5"
+    "C1 C2 C4 C6"
+    "C1 C3 C4 C6"
+    ;
+}
+.activites .grille .carte{
+    display: flex;
+    align-items: flex-end;
+
+    border-radius: 16px;
+
+    background-size: cover;
+    background-position: center;
+}
+.activites .grille .carte img{
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+}
+.activites .grille .carte h2{
+    width: 100%;
+    padding: 26px 20px 20px 20px;
+
+    border-radius: 0 0 16px 16px;
+
+    background-color: #F2F2F2;
+}
+.C1{
+    grid-area: C1;
+    background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+}
+.C2{
+    grid-area: C2;
+    background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+}
+.C3{
+    grid-area: C3;
+    background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+}
+.C4{
+    grid-area: C4;
+    background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+}
+.C5{
+    grid-area: C5;
+    background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+}
+.C6{
+    grid-area: C6;
+    background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+}
