@@ -70,7 +70,9 @@ a{
 
     color: black;
 }
-
+.evaluation_etoiles img{
+    height: 12px;
+}
 
 
 
@@ -96,7 +98,7 @@ header a{
 
 
 
-/* Section recherche */
+/* Recherche */
 .recherche{
     margin: 0 50px;
 }
@@ -185,3 +187,121 @@ header a{
 .recherche p img{
     margin-right: 12px;
 }
+
+
+
+/* Résultats de la recherche */
+.hebergements{
+    margin: 0 50px;
+    margin-top: 42px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Résultats */
+.resultats{
+    width: 100%;
+    margin-right: 40px;
+    padding: 50px 40px;
+
+    border-radius: 20px;
+    
+    background-color: #f2f2f2;
+}
+.resultats .grille{
+    width: 100%;
+    height: auto;
+    margin: 28px auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 246px);
+    justify-content: space-between;
+    grid-gap: 30px;
+}
+.resultats .grille .carte{
+    width: 246px;
+    height: 200px;
+    padding: 5px;
+
+    border-radius: 16px;
+
+    background-color: white;
+}
+.resultats .grille .carte .illustration{
+    width: 100%;
+    height: 59%;
+
+    object-fit: cover;
+
+    border-radius: 12px 12px 0 0;
+}
+.resultats .grille .carte .description{
+    margin-left: 11px;
+}
+.resultats .grille .carte .description h2, .resultats .grille .carte .description p, .resultats .grille .carte .description .evaluation_etoiles{
+    margin-top: 10px;
+}
+.resultats .afficher_plus{
+    margin-top: 46px;
+}
+
+/* Tendances */
+.tendances{
+    padding: 50px 40px;
+    padding-bottom: 0;
+
+    border-radius: 20px;
+    
+    background-color: #f2f2f2;
+}
+.tendances h1 img{
+    float: right;
+}
+.tendances .grille{
+    width: 100%;
+    height: auto;
+    margin-top: 28px;
+
+    display: grid;
+    grid-template-columns: repeat(1, 343px);
+    grid-gap: 33px;
+}
+.tendances .grille .carte{
+    width: 343px;
+    height: 144px;
+    padding: 5px;
+
+    display: flex;
+
+    border-radius: 16px;
+
+    background-color: white;
+}
+.tendances .grille .carte .illustration{
+    width: 37%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 12px 0 0 12px;
+}
+.tendances .grille .carte .description{
+    margin-left: 20px;
+    margin-top: 12px;
+
+    position: relative;
+}
+.tendances .grille .carte .description p{
+    margin-top: 16px
+}
+.tendances .grille .carte .description .evaluation_etoiles{
+    margin-top: auto;
+
+    position: absolute;
+    bottom: 8px;
+}
+
+
+
+
