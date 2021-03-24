@@ -45,8 +45,9 @@ table {
 
 
 /* Général */
-h1, h2, h3, h4, h5, h6, p, a{
+h1, h2, h3, h4, h5, h6, p, a, span{
     font-family: Arial, Helvetica, sans-serif;
+    display: block;
 }
 img{
     height: 20px;
@@ -226,6 +227,8 @@ header a{
 
     border-radius: 16px;
 
+    box-shadow: 0 0 10px #dbdbdb;
+
     background-color: white;
 }
 .resultats .grille .carte .illustration{
@@ -275,6 +278,8 @@ header a{
     display: flex;
 
     border-radius: 16px;
+
+    box-shadow: 0 0 10px #dbdbdb;
 
     background-color: white;
 }
@@ -330,6 +335,8 @@ header a{
 
     border-radius: 16px;
 
+    box-shadow: 0 0 10px #dbdbdb;
+
     background-size: cover;
     background-position: center;
 }
@@ -370,4 +377,23 @@ header a{
 .C6{
     grid-area: C6;
     background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+}
+
+footer{
+    margin-top: 60px;
+    padding: 50px 50px 28px 50px;
+
+    display: flex;
+    flex-flow: row;
+
+    background-color: #F2F2F2;
+}
+footer div{
+    margin-right: 20%;
+}
+footer span{
+    margin-bottom: 30px;
+}
+footer li{
+    margin-bottom: 22px;
 }
