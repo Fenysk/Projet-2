@@ -96,6 +96,9 @@ header a{
 
     font-size: 16px;
 }
+header nav span{
+    color: #0065FC
+}
 
 
 
@@ -348,19 +351,16 @@ header a{
     background-size: cover;
     background-position: center;
 }
-.activites .grille .carte img{
+.activites .grille .carte li{
     width: 100%;
-    height: 100%;
-    
-    object-fit: cover;
+    border-radius: 0 0 16px 16px;
 }
 .activites .grille .carte h2{
-    width: 100%;
     padding: 26px 20px 20px 20px;
 
     border-radius: 0 0 16px 16px;
 
-    background-color: #F2F2F2;
+    background-color: white;
 }
 .C1{
     grid-area: C1;
