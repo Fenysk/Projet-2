@@ -161,7 +161,14 @@ header a{
 
     display: flex;
     align-items: center;
+
+    transition:all 0.3s ease;
 }
+.recherche .filtres a:hover{
+    transform: scale(1.07);
+    background-color: #F2F2F2;
+}
+
 .recherche .filtres div{
     height: 54px;
     width: 54px;
@@ -329,6 +336,7 @@ header a{
     "C1 C3 C4 C6"
     ;
 }
+
 .activites .grille .carte{
     display: flex;
     align-items: flex-end;
@@ -379,6 +387,7 @@ header a{
     background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 }
 
+/* Pied de page */
 footer{
     margin-top: 60px;
     padding: 50px 50px 28px 50px;
