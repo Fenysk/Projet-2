@@ -194,9 +194,17 @@ header nav span{
 }
 .recherche p{
     padding-top: 36px;
+    display: flex;
+    align-items: center;
 }
 .recherche p img{
+    width: 12px;
+    height: 12px;
     margin-right: 12px;
+    padding: 5px;
+
+    border: 1px #dbdbdb solid;
+    border-radius: 100%;
 }
 
 
