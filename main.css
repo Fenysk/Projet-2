@@ -45,7 +45,7 @@ table {
 
 
 /* Général */
-h1, h2, h3, h4, h5, h6, p, a, span{
+h1, h2, h3, h4, h5, h6, p, a, span, li{
     font-family: Arial, Helvetica, sans-serif;
     display: block;
 }
@@ -71,8 +71,12 @@ a{
 
     color: black;
 }
-.evaluation_etoiles img{
-    height: 12px;
+.evaluation_etoiles i{
+    font-size: 12px;
+    color: #dbdbdb;
+}
+.evaluation_etoiles .true{
+    color:#0065FC
 }
 
 
@@ -80,24 +84,32 @@ a{
 
 /* Entête */
 header{
-    margin: 50px;
+    margin: 0 50px 50px 50px;
 
     display: flex;
     justify-content: space-between;
 }
 header img{
     height: 40px;
+    padding-top: 50px;
 }
 header nav, header ul{
     display: flex;
 }
 header a{
-    margin-left: 68px;
+    margin-left: 28px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     font-size: 16px;
 }
 header nav span{
     color: #0065FC
+}
+header nav .selection{
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
 }
 
 
@@ -175,7 +187,7 @@ header nav span{
 .recherche .filtres div{
     height: 54px;
     width: 54px;
-    margin-right: 16px;
+    margin-right: 24px;
     
     border-radius: 25px;
 
@@ -197,16 +209,16 @@ header nav span{
     display: flex;
     align-items: center;
 }
-.recherche p img{
-    width: 12px;
-    height: 12px;
+.recherche i{
     margin-right: 12px;
-    padding: 5px;
+    padding: 5px 9px;
+
+    font-size: 12px;
+    color: #0065FC;
 
     border: 1px #dbdbdb solid;
-    border-radius: 100%;
+    border-radius: 20px;
 }
-
 
 
 /* Résultats de la recherche */
@@ -405,11 +417,12 @@ footer{
 
     background-color: #F2F2F2;
 }
-footer div{
+footer ul{
     margin-right: 20%;
 }
-footer span{
+footer .titre{
     margin-bottom: 30px;
+    font-weight: bold;
 }
 footer li{
     margin-bottom: 22px;
