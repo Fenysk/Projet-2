@@ -94,13 +94,6 @@ header img{
     height: 40px;
     padding-top: 50px;
 }
-header nav{
-    flex: 1;
-    justify-content: flex-end;
-}
-header nav, header ul{
-    display: flex;
-}
 header a{
     margin-left: 28px;
     padding-top: 50px;
@@ -110,8 +103,17 @@ header a{
     font-size: 16px;
 }
 header .inscription{
-    order: 2;
+    order: 3;
     color: #0065FC;
+}
+header nav{
+    order: 2;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+header nav ul{
+    display: flex;
 }
 header nav .selection{
     color: #0065FC;
@@ -475,19 +477,98 @@ footer li{
 
 @media screen and (max-width: 880px) {
     header{
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 40px;
+
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: 
+        "logo inscription"
+        "menu menu"
+        ;
+    }
+    header img{
+        grid-area: logo;
+        padding: 0;
+        margin-left: 20px;
+    }
+    header a{
+        margin: 0;
+        padding: 0;
+    }
+    header .inscription{
+        grid-area: inscription;
+        order:1;
+        margin-right: 20px;
+        align-self: flex-end;
+    }
+    header nav{
+        margin-top: 40px;
+        grid-area: menu;
+        justify-content: center;
+    }
+    header nav ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    header nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul li a{
+        padding-bottom: 16px;
+        border-bottom: 3px #F2F2F2 solid;
+    }
+    header nav .selection{
+        border: none;
+        border-bottom: 3px #0065FC solid;
+    }
+
+    .recherche{
+        margin: 0 20px;
     }
 
     .hebergements{
         flex-flow: column-reverse;
         margin: 0;
+        margin-top: 40px;
         padding: 0;
         width: 100%;
     }
 
+    .resultats{
+        width: auto;
+        margin: 0;
+        padding: 0 20px;
+        margin-top: 40px;
+        border-radius: 0;
+        background-color: white;
+    }
     .resultats .grille{
-        grid-template-columns: repeat(1, 246px);
+        width: auto;
+        grid-template-columns: repeat(1, auto);
+        grid-gap: 10px;
+    }
+    .tendances{
+        padding: 40px 20px;
+        border-radius: 0;
+    }
+    .tendances .grille{
+        grid-template-columns: repeat(1, auto);
+        grid-gap: 10px;
+    }
+    .tendances .grille .carte, .resultats .grille .carte{
+        width: auto;
+    }
+    .activites{
+        margin: 0 20px;
+        margin-top: 60px;
     }
     .activites .grille{
+        width: 100%;
         margin-top: 28px;
     
         display: grid;
@@ -502,6 +583,9 @@ footer li{
         "C5"
         "C6"
         ;
+    }
+    footer{
+        margin-top: 50px;
     }
   }
 
