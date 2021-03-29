@@ -419,12 +419,13 @@ footer{
     padding: 50px 50px 28px 50px;
 
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
 
     background-color: #F2F2F2;
 }
 footer ul{
     margin-right: 20%;
+    margin-bottom: 50px;
 }
 footer .titre{
     margin-bottom: 30px;
