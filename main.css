@@ -42,8 +42,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
 /* Général */
 h1, h2, h3, h4, h5, h6, p, a, span, li{
     font-family: Arial, Helvetica, sans-serif;
@@ -78,9 +76,6 @@ a{
 .evaluation_etoiles .true{
     color:#0065FC
 }
-
-
-
 
 /* Entête */
 header{
@@ -119,8 +114,6 @@ header nav .selection{
     color: #0065FC;
     border-top: 2px #0065FC solid;
 }
-
-
 
 /* Recherche */
 .recherche{
@@ -227,7 +220,6 @@ header nav .selection{
     border: 1px #dbdbdb solid;
     border-radius: 20px;
 }
-
 
 /* Résultats de la recherche */
 .hebergements{
