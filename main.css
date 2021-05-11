@@ -530,7 +530,6 @@ footer li{
         border-bottom: 3px #F2F2F2 solid;
     }
     header nav a:hover{
-        color: #0065FC;
         border-top: none;
         border-bottom: 3px #0065FC solid;
     }
