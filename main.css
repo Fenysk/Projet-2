@@ -53,11 +53,11 @@ img{
 span{
     font-weight: bold;
 }
-h1{
+h1, h2{
     font-size: 20px;
     font-weight: bold;
 }
-h2{
+h3{
     font-size: 16px;
     font-weight: bold;
 }
@@ -299,7 +299,7 @@ header nav a:hover{
 .resultats .grille .carte .description{
     margin-left: 11px;
 }
-.resultats .grille .carte .description h2, .resultats .grille .carte .description p, .resultats .grille .carte .description .evaluation_etoiles{
+.resultats .grille .carte .description h3, .resultats .grille .carte .description p, .resultats .grille .carte .description .evaluation_etoiles{
     margin-top: 10px;
 }
 .resultats .afficher_plus{
@@ -315,7 +315,7 @@ header nav a:hover{
     
     background-color: #f2f2f2;
 }
-.tendances h1 img{
+.tendances h2 img{
     float: right;
 }
 .tendances .grille{
@@ -402,7 +402,7 @@ header nav a:hover{
     width: 100%;
     border-radius: 0 0 16px 16px;
 }
-.activites .grille .carte h2{
+.activites .grille .carte h3{
     padding: 26px 20px 20px 20px;
 
     border-radius: 0 0 16px 16px;
@@ -431,7 +431,7 @@ header nav a:hover{
 }
 .C6{
     grid-area: C6;
-    background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-image: url("images/activites/4_small/lena-paulin-wh3-EJoDcV0-unsplash.jpg");
 }
 
 /* Pied de page */
