@@ -133,6 +133,11 @@ header nav a:hover{
     display: flex;
     align-items: center;
 }
+.recherche form input, .recherche form input::placeholder{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
 .recherche form i{
     font-size: 18px;
     padding: 17px 20px;
@@ -145,6 +150,7 @@ header nav a:hover{
 }
 .recherche form .fa-map-marker-alt{
     border-radius: 20px 0 0 20px;
+    margin-right: 0;
 }
 .recherche form a i{
     display: none;
@@ -543,15 +549,14 @@ footer li{
     .recherche{
         margin: 0 20px;
     }
-    
-    .recherche .bouton_rechercher{
-        display: none;
-    }
     .recherche form{
         width: 100%;
     }
     .recherche form .search{
         width: 100%;
+    }
+    .recherche .bouton_rechercher{
+        display: none;
     }
     .recherche form a i{
         margin: auto;
