@@ -128,20 +128,26 @@ header nav a:hover{
     margin-top: 22px;
 
     border: 1px #F2F2F2 solid;
-    border-radius: 15px;
+    border-radius: 20px;
 
     display: flex;
     align-items: center;
-
-    background-color: #F2F2F2;
 }
 .recherche form i{
     font-size: 18px;
-    margin: 20px;
+    padding: 17px 20px;
 
     color: black;
 
-    border: none
+    border: none;
+
+    background-color: #F2F2F2;
+}
+.recherche form .fa-map-marker-alt{
+    border-radius: 20px 0 0 20px;
+}
+.recherche form a i{
+    display: none;
 }
 .recherche input{
     height: 100%;
@@ -536,6 +542,25 @@ footer li{
 
     .recherche{
         margin: 0 20px;
+    }
+    
+    .recherche .bouton_rechercher{
+        display: none;
+    }
+    .recherche form{
+        width: 100%;
+    }
+    .recherche form .search{
+        width: 100%;
+    }
+    .recherche form a i{
+        margin: auto;
+        padding: 17px 17px;
+        
+        display: block;
+
+        color: white;
+        background-color: #0065FC;
     }
 
     .hebergements{
