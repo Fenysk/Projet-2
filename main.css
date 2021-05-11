@@ -110,7 +110,7 @@ header nav{
 header nav ul{
     display: flex;
 }
-header nav .selection{
+header nav a:hover{
     color: #0065FC;
     border-top: 2px #0065FC solid;
 }
@@ -135,9 +135,13 @@ header nav .selection{
 
     background-color: #F2F2F2;
 }
-.recherche form img{
-    height: 18px;
-    width: 50px;
+.recherche form i{
+    font-size: 18px;
+    margin: 20px;
+
+    color: black;
+
+    border: none
 }
 .recherche input{
     height: 100%;
@@ -165,7 +169,7 @@ header nav .selection{
     flex-flow: wrap;
 }
 .recherche .filtres a{
-    height: 50px;
+    height: 48px;
     margin-left: 24px;
     padding-right: 16px;
 
@@ -185,12 +189,13 @@ header nav .selection{
     background-color: #F2F2F2;
 }
 
-.recherche .filtres div{
-    height: 54px;
-    width: 54px;
+.recherche .filtres i{
     margin-right: 24px;
     
-    border-radius: 25px;
+    font-size: 20px;
+
+    border-radius: 30px;
+    border: none;
 
     display: flex;
     justify-content: center;
@@ -198,13 +203,23 @@ header nav .selection{
     
     background-color: #DEEBFF;
 }
-.recherche .filtres img{
-    height: 18px;
-    width: 50px; 
 
-    filter: invert(25%) sepia(81%) saturate(2508%) hue-rotate(208deg) brightness(99%) contrast(113%);
-    
+.recherche .filtres .fa-money-bill-wave{
+    padding: 17px 15px;
 }
+
+.recherche .filtres .fa-child{
+    padding: 17px 20px;
+}
+
+.recherche .filtres .fa-heart{
+    padding: 17px 17px;
+}
+
+.recherche .filtres .fa-dog{
+    padding: 17px 16px;
+}
+
 .recherche p{
     padding-top: 36px;
     display: flex;
@@ -371,7 +386,7 @@ header nav .selection{
     background-size: cover;
     background-position: center;
 }
-.activites .grille .carte li{
+.activites .grille .carte a{
     width: 100%;
     border-radius: 0 0 16px 16px;
 }
@@ -514,8 +529,9 @@ footer li{
         padding-bottom: 16px;
         border-bottom: 3px #F2F2F2 solid;
     }
-    header nav .selection{
-        border: none;
+    header nav a:hover{
+        color: #0065FC;
+        border-top: none;
         border-bottom: 3px #0065FC solid;
     }
 

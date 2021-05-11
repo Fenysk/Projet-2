@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset='utf-8'>
@@ -7,8 +7,8 @@
     <title>Reservia</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/001215eb22.js" crossorigin="anonymous"></script>
 </head>
@@ -20,7 +20,7 @@
         <a class="inscription" href="#"><span>S'inscrire</span></a>
         <nav>
             <ul>
-                <li><a class="selection" href="#hebergements">Hébergements</a></li>
+                <li><a href="#hebergements">Hébergements</a></li>
                 <li><a href="#activites">Activités</a></li>
             </ul>
         </nav>
@@ -32,7 +32,7 @@
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
         <form method="POST" action="rechercher.php">
-            <img src="images/icons/map-marker-alt-solid.svg" />
+            <i class="fas fa-map-marker-alt"></i>
             <input type="search" name="recherche" placeholder="Marseille, France" />
             <input class="bouton_rechercher" type="submit" value="Rechercher" />
         </form>
@@ -40,16 +40,16 @@
             <h2>Filtres</h2>
             <ul>
                 <li><a href="#">
-                        <div><img src="images/icons/money-bill-wave-solid.svg" /></div>Économique
+                        <i class="fas fa-money-bill-wave"></i>Économique
                     </a></li>
                 <li><a href="#">
-                        <div><img src="images/icons/child-solid.svg" /></div>Familial
+                        <i class="fas fa-child"></i>Familial
                     </a></li>
                 <li><a href="#">
-                        <div><img src="images/icons/heart-solid.svg" /></div>Romantique
+                        <i class="fas fa-heart"></i>Romantique
                     </a></li>
                 <li><a href="#">
-                        <div><img src="images/icons/dog-solid.svg" /></div>Animaux autorisés
+                        <i class="fas fa-dog"></i>Animaux autorisés
                     </a></li>
             </ul>
         </div>
@@ -63,8 +63,8 @@
         <div class="resultats">
             <h1>Hébergements à Marseille</h1>
             <ul class="grille">
-                <a href="#">
-                    <li class="carte">
+                <li>
+                    <a class="carte" href="#">
                         <img class="illustration"
                             src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
                         <div class="description">
@@ -78,11 +78,11 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </li>
-                </a>
+                    </a>
+                </li>
 
-                <a href="#">
-                    <li class="carte">
+                <li>
+                    <a class="carte" href="#">
                         <img class="illustration"
                             src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" />
                         <div class="description">
@@ -96,11 +96,11 @@
                                 <i class="fas fa-star true"></i>
                             </div>
                         </div>
-                    </li>
-                </a>
+                    </a>
+                </li>
 
-                <a href="#">
-                    <li class="carte">
+                <li>
+                    <a class="carte" href="#">
                         <img class="illustration"
                             src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" />
                         <div class="description">
@@ -114,11 +114,11 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </li>
-                </a>
+                    </a>
+                </li>
 
-                <a href="#">
-                    <li class="carte">
+                <li>
+                    <a class="carte" href="#">
                         <img class="illustration"
                             src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" />
                         <div class="description">
@@ -132,11 +132,11 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </li>
-                </a>
+                    </a>
+                </li>
 
-                <a href="#">
-                    <li class="carte">
+                <li>
+                    <a class="carte" href="#">
                         <img class="illustration"
                             src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" />
                         <div class="description">
@@ -150,11 +150,11 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </li>
-                </a>
+                    </a>
+                </li>
 
-                <a href="#">
-                    <li class="carte">
+                <li>
+                    <a class="carte" href="#">
                         <img class="illustration"
                             src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" />
                         <div class="description">
@@ -168,8 +168,8 @@
                                 <i class="fas fa-star true"></i>
                             </div>
                         </div>
-                    </li>
-                </a>
+                    </a>
+                </li>
             </ul>
             <p class="afficher_plus"><a href="#"><span>Afficher plus</span></a></p>
         </div>
@@ -178,8 +178,8 @@
         <aside class="tendances">
             <h1>Les plus populaires <img src="images/icons/chart-line-solid.svg" /></h1>
             <ul class="grille">
-                <a href="#">
-                    <li class="carte">
+                <li>
+                    <a class="carte" href="#">
                         <img class="illustration"
                             src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
                         <div class="description">
@@ -193,11 +193,11 @@
                                 <i class="fas fa-star true"></i>
                             </div>
                         </div>
-                    </li>
-                </a>
+                    </a>
+                </li>
 
-                <a href="#">
-                    <li class="carte">
+                <li>
+                    <a class="carte" href="#">
                         <img class="illustration"
                             src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" />
                         <div class="description">
@@ -211,11 +211,11 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </li>
-                </a>
+                    </a>
+                </li>
 
-                <a href="#">
-                    <li class="carte">
+                <li>
+                    <a class="carte" href="#">
                         <img class="illustration"
                             src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
                         <div class="description">
@@ -229,8 +229,8 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </li>
-                </a>
+                    </a>
+                </li>
             </ul>
         </aside>
 
@@ -241,41 +241,42 @@
     <section class="activites" id="activites">
         <h1>Activités à Marseille</h1>
         <ul class="grille">
-            <a href="#" class="carte C1">
-                <li>
+            <li class="carte C1">
+                <a href="#"> 
                     <h2>Vieux Port</h2>
-                </li>
-            </a>
+                </a>
+            </li>
 
-            <a href="#" class="carte C2">
-                <li>
+
+            <li class="carte C2">
+                <a href="#"> 
                     <h2>Fort de Pomègues</h2>
-                </li>
-            </a>
+                </a>
+            </li>
 
-            <a href="#" class="carte C3">
-                <li>
+            <li class="carte C3">
+                <a href="#"> 
                     <h2>Îles du Frioul</h2>
-                </li>
-            </a>
+                </a>
+            </li>
 
-            <a href="#" class="carte C4">
-                <li>
+            <li class="carte C4">
+                <a href="#"> 
                     <h2>Parc National des Calanques</h2>
-                </li>
-            </a>
+                </a>
+            </li>
 
-            <a href="#" class="carte C5">
-                <li>
+            <li class="carte C5">
+                <a href="#"> 
                     <h2>Notre-Dame-de-la-Garde</h2>
-                </li>
-            </a>
+                </a>
+            </li>
 
-            <a href="#" class="carte C6">
-                <li>
+            <li class="carte C6">
+                <a href="#">
                     <h2>Parc Longchamp</h2>
-                </li>
-            </a>
+                </a>
+            </li>
         </ul>
     </section>
 
